@@ -1,18 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class Graph : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    Transform pointPrefab;
+
+    void Awake()
     {
-        
+        Transform point = Instantiate(pointPrefab);
+        point.localPosition = Vector3.right;
+
+        point = Instantiate(pointPrefab);
+        point.localPosition = Vector3.right * 2f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
