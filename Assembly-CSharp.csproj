@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/Unity UI Font Resizer.cs" />
     <Compile Include="Assets/Scripts/Graph.cs" />
+    <Compile Include="Assets/Scripts/FunctionLibrary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Point/Point Surface.shader" />
